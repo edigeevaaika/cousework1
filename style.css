@@ -4,3 +4,11 @@
 body {
   margin: 10px auto;
 }
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  padding: 20px 55px;
+}
