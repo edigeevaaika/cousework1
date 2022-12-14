@@ -12,3 +12,13 @@ nav {
 
   padding: 20px 55px;
 }
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+
+  max-width: 120px;
+  width: 100%;
+}
