@@ -6,35 +6,21 @@ body {
 }
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 nav {
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+ display: flex;
+ justify-content: space-around; 
+  
 
-  padding: 20px 55px;
 }
 nav ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-
-  max-width: 120px;
-  width: 100%;
+  
+ 
 }
 nav ul li {
   text-decoration: none;
-}
-header {
-  width: 100%;
-  height: 537px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
 }
