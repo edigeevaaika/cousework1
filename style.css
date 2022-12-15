@@ -8,19 +8,17 @@ header {
   display: flex;
   justify-content: space-around;
 }
-nav {
- display: flex;
- justify-content: space-around; 
-  
 
-}
-nav ul {
-  padding: 0;
-  margin: 0;
+nav ul  {
+  /* padding: 0;
+  margin: 0; */
   list-style-type: none;
-  
- 
+  display: flex;
+ /* justify-content: space-around; 
+  align-items: center; */
+ padding: 10px 15px;
 }
-nav ul li {
+nav ul li a {
   text-decoration: none;
+  padding: 15px 10px;
 }
