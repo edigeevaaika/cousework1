@@ -1,12 +1,5 @@
-* {
+*{
   box-sizing: border-box;
-}
-body {
-  margin: 10px auto;
-}
-header {
-  display: flex;
-  justify-content: space-around;
 }
 body {
   margin: 0 50px auto;
@@ -22,4 +15,151 @@ body {
 nav ul {
   display: flex;
   list-style-type: none;
+}
+nav ul li {
+  padding: 10px 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-search {
+  border: none;
+  background-color: rgba(247, 247, 225, 0.753);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.container { /* задать ширину и выровнять по середине */
+  max-width: 997px;
+  margin: 0 auto;
+}
+.main-header {
+  background-image: url("./assets/IMAGE.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 600px;
+  text-transform: uppercase;
+  color: white;
+  padding: 25px;
+  font-size: 20px;
+}
+.header-button {
+  background-color: rgb(247, 185, 72);
+  border: none;
+  border-radius: 20px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.lorem {
+    font-size: 35px;
+    padding-left: 10px;
+}
+.our {
+  margin-left: 50px;
+}
+.see {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: grey;
+  font-size: 16px;
+  margin-right: 200px;
+  margin-top: 15px;
+}
+.hover:hover {
+border: blue;
+}
+.plates {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
+}
+.card-content {
+  background-color: rgb(212, 212, 236);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 250px;
+  height: 50px;
+}
+.row { /* строка */
+  display: flex;
+  flex-wrap: wrap;
+}
+[class^="col"] {
+  padding: 0 10px;
+}
+.col-1 {
+  flex: 8.3% 0 0;
+}
+.col-2 {
+  flex: 16.6% 0 0;
+}
+.col-3 {
+  flex: 25% 0 0;
+}
+.col-4 {
+  flex: 33.3% 0 0;
+}
+.col-5 {
+  flex: 41.6% 0 0;
+}
+.col-6 {
+  flex: 50% 0 0;
+}
+.col-7 {
+  flex: 58.3% 0 0;
+}
+.col-8 {
+  flex: 66.6% 0 0;
+}
+.col-9 {
+  flex: 75% 0 0;
+}
+.col-10 {
+  flex: 83% 0 0;
+}
+.col-11 {
+  flex: 91.6% 0 0;
+}
+.col-12 {
+  flex: 100% 0 0;
+}
+.list {
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.list ul {
+  list-style-type: none;
+}
+.list ul li a {
+  text-decoration: none;
+  color: black;
+ 
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.order {
+  background-color: rgb(240, 154, 42);
+  border-radius: 40%;
+  padding: 5px 10px;
+  margin-left: 40px;
+}
+.star {
+  text-align: center;
+  background-color: rgb(248, 243, 235);
+}
+.orange {
+  background-color: rgb(240, 198, 119);
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+}
+h1 {
+  text-align: center;
+}
+.latest {
+  border: 1px solid gainsboro;
 }
