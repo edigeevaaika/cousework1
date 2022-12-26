@@ -167,5 +167,15 @@ h1 {
 }
 .circle {
   margin-left: auto;
-  margin-top: -50px;
+  margin-top: 50px;
+
+ position: absolute;
+ height: 50px;
+ left: 0%;
+ right: 0%;
+ top: 0px;
+
+ background: #F1EBE4;
+ border: 1px solid #000000;
+ border-radius: 128px;
 }
