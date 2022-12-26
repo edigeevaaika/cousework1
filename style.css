@@ -84,8 +84,8 @@ border: blue;
   display: flex;
   justify-content: center;
   text-align: center;
-  width: 250px;
-  height: 50px;
+  width: 350px;
+  height: 60px;
 }
 .row { /* строка */
   display: flex;
@@ -164,4 +164,8 @@ h1 {
 }
 .latest {
   border: 1px solid gainsboro;
+}
+.circle {
+  margin-left: auto;
+  margin-top: -50px;
 }
