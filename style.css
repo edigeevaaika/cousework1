@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  margin: 0 50px auto;
+  margin: 0 auto;
   background-color: rgba(247, 247, 225, 0.753);
 }
 .main {
@@ -11,6 +11,7 @@ body {
   align-items: center;
   text-transform: uppercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-bottom: 1px solid #000000;
 }
 nav ul {
   display: flex;
@@ -36,6 +37,7 @@ nav ul li a {
 }
 .main-header {
   background-image: url(./icon/img-1.png);
+  margin: 0 50px;
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
