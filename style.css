@@ -1,10 +1,43 @@
 *{
   box-sizing: border-box;
 }
-body {
-  margin: 0 auto;
+
+body{
+  margin: 0;
+  font-family:DM sans;
+  font-size:18px;
+  color: #111010;
   background-color: rgba(247, 247, 225, 0.753);
 }
+h1,h2,h3,h4,h5,h6 {
+  font-family:DM sans;
+  font-weight: 400;
+  color:#111010;
+  
+}
+.container{
+  max-width: 1376px;
+  margin: 0 auto;
+}
+h1{
+  font-size:127px;
+}
+h2{
+  font-size:96px;
+}
+h3{
+  font-size:72px;
+}
+h4{
+  font-size:48px;
+}
+h5{
+  font-size:24px;
+}
+h6{
+  font-size:20px;
+}
+
 .main {
   display: flex;
   justify-content: space-between;
