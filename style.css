@@ -78,6 +78,7 @@ border: blue;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 70px;
+  background-image: url(./img/Frame.png);
 }
 .card-content {
   background-color: rgb(212, 212, 236);
