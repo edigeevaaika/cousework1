@@ -9,7 +9,7 @@ body{
   color: #111010;
   background-color: rgba(247, 247, 225, 0.753);
 }
-h1,h2,h3,h4,h5,h6 {
+/* h1,h2,h3,h4,h5,h6 {
   font-family:DM sans;
   font-weight: 400;
   color:#111010;
@@ -36,7 +36,7 @@ h5{
 }
 h6{
   font-size:20px;
-}
+} */
 
 .main {
   display: flex;
@@ -79,7 +79,6 @@ nav ul li a {
   color: white;
   padding: 25px;
   font-size: 20px;
-
 }
 .header-button {
   background-color: rgb(247, 185, 72);
@@ -91,8 +90,9 @@ nav ul li a {
   margin-top: auto;
 }
 .lorem {
-    font-size: 35px;
-    padding-left: 10px;
+    font-size: 100px;
+    margin-left: -150px;
+    max-width: 1000px;
 }
 .our {
   margin-left: 50px;
