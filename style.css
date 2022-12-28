@@ -86,12 +86,13 @@ border: blue;
   background-image: url(./img/Frame.png);
 }
 .card-content {
-  background-color: rgb(212, 212, 236);
+  height: 142px;
+  background: #CAB5EB;
+  width: 435px;
+  font-size: 32px;
   display: flex;
   justify-content: center;
-  text-align: center;
-  width: 350px;
-  height: 60px;
+  align-items: center;
 }
 .row { /* строка */
   display: flex;
@@ -180,4 +181,8 @@ h1 {
  border-radius: 128px;
  height: 100px;
  width: 100px;
+}
+.img-category{
+  width: 435px;
+  height: 284px;
 }
