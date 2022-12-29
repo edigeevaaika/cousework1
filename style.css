@@ -192,6 +192,9 @@ h1 {
 }
 .semicircle {
   background-color: rgb(235, 206, 206);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
   border: 1px solid black;
   margin-top: 40px;
 }
