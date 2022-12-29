@@ -186,3 +186,21 @@ h1 {
 .snowflake{
  background-color: #CAB5EB;
 }
+.keep-in-touch {
+  text-align: center;
+}
+.enter {
+  background-color: white;
+  padding: 5px 30px;
+  border-radius: 25px;
+}
+.send {
+  background-color: rgb(241, 175, 51);
+  border-radius: 50%;
+  margin-left: -20px;
+  padding: 15px;
+}
+.behind {
+  display: flex;
+  justify-content: space-between;
+}
