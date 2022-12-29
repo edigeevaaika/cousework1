@@ -190,6 +190,12 @@ h1 {
  height: 130px;
  width: 130px;
 }
+.semicircle {
+  background-color: rgb(235, 206, 206);
+  border: 1px solid black;
+  margin-top: 40px;
+}
+
 .snowflake{
  background-color: #CAB5EB;
 }
