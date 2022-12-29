@@ -243,5 +243,9 @@ footer ul li a {
   text-decoration: none;
   color: black;
   font-size: 10px;
-
+}
+.made {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
