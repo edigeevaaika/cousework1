@@ -173,6 +173,13 @@ h1 {
 .latest {
   border: 1px solid gainsboro;
 }
+.collection {
+  border-top: 1px solid black;
+  /* border-radius: 50%; */
+ background-color: orange;
+ margin-top: 20px;
+ text-align: center;
+}
 .circle{
   margin-left: 1500px;
   margin-top: -50px;
