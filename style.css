@@ -174,12 +174,15 @@ h1 {
   border: 1px solid gainsboro;
 }
 .circle{
-  margin-left: 1100px;
-  margin-top: 330px;
+  margin-left: 1500px;
+  margin-top: -50px;
  background:#F1EBE4;;
  border: 1px solid #000000;
  height: 50px;
  border-radius: 128px;
  height: 130px;
  width: 130px;
+}
+.snowflake{
+ background-color: #CAB5EB;
 }
