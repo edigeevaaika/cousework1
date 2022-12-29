@@ -239,3 +239,6 @@ footer {
   background-color: #CAB5EB;
   border-radius: 0px;
 }
+footer ul li a {
+  text-decoration: none;
+}
