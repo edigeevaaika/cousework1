@@ -196,6 +196,7 @@ h1 {
   border: 1px solid black;
   margin-top: 40px;
   height: 466px;
+  text-transform: uppercase;
 }
 
 .snowflake{
