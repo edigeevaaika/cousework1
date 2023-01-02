@@ -177,9 +177,10 @@ h1 {
 .collection {
  background-image: url(./icon/semicircle.png);
  margin-top: 20px;
- text-align: center;
  background-repeat: no-repeat;
  height: 200px;
+ text-align: center;
+ 
 }
 .circle{
   margin-left: 1500px;
