@@ -84,10 +84,12 @@ nav ul li a {
 border: blue;
 }
 .plates {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 70px;
-  background-image: url(./img/Frame.png);
+  margin-left: 150px;
+  font-size: 18px;
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* margin-bottom: 70px; */
+  /* background-image: url(./img/Frame.png); */
 }
 .card-content {
   height: 142px;
