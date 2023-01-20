@@ -35,7 +35,6 @@ nav ul li a {
 .container { /* задать ширину и выровнять по середине */
   max-width: 1378px;
   margin: 0 auto;
-  padding: 10px 15px;
 }
 .main-header {
   background-image: url(./icon/girl.png);
