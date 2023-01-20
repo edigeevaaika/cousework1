@@ -82,7 +82,8 @@ border: blue;
 .plates {
   font-size: 18px;
   margin-left: 10px;
-  width: 200;
+  width: 1440px;
+  height: 480px;
 }
 .card-content {
   height: 142px;
@@ -219,7 +220,7 @@ h1 {
   justify-content: space-between;
 }
 .photo {
-
+  margin: 100px 0px;
   display: flex;
   justify-content: space-around;
 }
