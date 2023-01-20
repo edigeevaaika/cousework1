@@ -80,12 +80,9 @@ nav ul li a {
 border: blue;
 }
 .plates {
-  margin-left: 150px;
   font-size: 18px;
-  /* display: flex;
-  flex-wrap: wrap; */
-  /* margin-bottom: 70px; */
-  /* background-image: url(./img/Frame.png); */
+  margin-left: 10px;
+  width: 200;
 }
 .card-content {
   height: 142px;
