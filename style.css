@@ -57,6 +57,7 @@ nav ul li a {
   padding-top: 20px;
   padding-bottom: 20px;
   width: 300px;
+  margin-top: -60px;
 }
 .lorem {
     font-size: 70px;
@@ -252,4 +253,22 @@ footer ul li a {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+}
+
+.img-wrap{
+}
+.img-wrap img{
+  display: block;
+}
+
+.item{
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card-content{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
