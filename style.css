@@ -229,9 +229,13 @@ h1 {
   display: flex;
   justify-content: space-around;
 }
+.photo img:nth-child(2n-1){
+  
+}
 .first {
   margin-left: 10px;
   margin-right: 20px;
+  
 }
 .second {
   margin-bottom: 50px;
