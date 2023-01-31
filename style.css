@@ -87,13 +87,14 @@ border: blue;
   height: 480px;
 }
 .card-content {
-  height: 142px;
+  height: 55px;
   background: #CAB5EB;
-  width: 435px;
-  font-size: 32px;
+  font-size: 20px;
+  text-transform: uppercase;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-style: normal;
 }
 .row { /* строка */
   display: flex;
@@ -175,11 +176,13 @@ h1 {
 }
 .collection {
  background-image: url(./icon/semicircle.png);
- margin-top: 20px;
  background-repeat: no-repeat;
  height: 200px;
  text-align: center;
- 
+ background-position: center;
+    height: 304px;
+    background-size: auto 100%;
+    padding-top: 50px;
 }
 .circle{
   margin-left: 1100px;
@@ -197,6 +200,7 @@ h1 {
   margin-top: 40px;
   height: 466px;
   text-transform: uppercase;
+  padding-top: 80px;
 }
 
 .snowflake{
@@ -271,4 +275,8 @@ footer ul li a {
   bottom: 0;
   left: 0;
   right: 0;
+}
+.img-wrap img{
+  width: 100%;
+  display: block; 
 }
