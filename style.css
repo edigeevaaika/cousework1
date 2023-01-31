@@ -208,6 +208,8 @@ h1 {
 }
 .keep-in-touch {
   text-align: center;
+  font-family: 'DM Sans';
+  padding: 30px;
 }
 .enter {
   background-color: white;
