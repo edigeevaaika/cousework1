@@ -229,8 +229,16 @@ h1 {
   display: flex;
   justify-content: space-around;
 }
-.photo img:nth-child(2n-1){
-  
+.photo-img{
+  width: 20%;
+  padding: 0 20px;
+}
+.photo-img img{
+  width: 100%;
+  display: block;
+}
+.photo-img:nth-child(2n){
+  padding-top: 40px;
 }
 .first {
   margin-left: 10px;
