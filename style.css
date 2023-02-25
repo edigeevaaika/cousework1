@@ -271,13 +271,6 @@ footer ul li a {
   justify-content: space-between;
   padding: 20px;
 }
-
-.img-wrap{
-}
-.img-wrap img{
-  display: block;
-}
-
 .item{
   position: relative;
   border-radius: 20px;
